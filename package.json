@@ -1,0 +1,23 @@
+{
+  "name": "seleccion",
+  "version": "1.0.0",
+  "description": "A getSelection polyfill",
+  "main": "src/getSelection.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bevacqua/seleccion.git"
+  },
+  "author": "Nicolas Bevacqua <nicolasbevacqua@gmail.com> (http://bevacqua.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bevacqua/seleccion/issues"
+  },
+  "homepage": "https://github.com/bevacqua/seleccion",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "browserify": "8.1.0",
+    "jshint": "2.5.11",
+    "uglify-js": "2.4.16"
+  }
+}
