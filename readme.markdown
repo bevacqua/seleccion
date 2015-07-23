@@ -10,12 +10,13 @@ Includes also a `setSelection` method. See also [sell][1] to work with selection
 npm install seleccion
 ```
 
-# `seleccion.getSelection`
+# `seleccion.get()`
 
 Provides a polyfill for `window.getSelection`.
 
 ```js
 var getSelection = require('seleccion').get;
+var range = getSelection();
 ```
 
 - Defaults to `window.getSelection` if available
