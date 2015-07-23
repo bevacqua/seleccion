@@ -2,7 +2,7 @@
 
 > A `getSelection` polyfill and a `setSelection` ranch dressing
 
-Includes also a `setSelection` method. See also [sell][2] to work with selection within `<input>` and `<textarea>` elements.
+Includes also a `setSelection` method. See also [sell][1] to work with selection within `<input>` and `<textarea>` elements.
 
 # install
 
