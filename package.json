@@ -1,7 +1,7 @@
 {
   "name": "seleccion",
   "version": "2.0.0",
-  "description": "A getSelection polyfill and a setSelection dreamweaver",
+  "description": "A getSelection polyfill and a setSelection ranch dressing",
   "main": "src/seleccion.js",
   "repository": {
     "type": "git",

@@ -1,6 +1,6 @@
 # seleccion
 
-> A `getSelection` polyfill and a `setSelection` dreamweaver
+> A `getSelection` polyfill and a `setSelection` ranch dressing
 
 Includes also a `setSelection` method. See also [sell][2] to work with selection within `<input>` and `<textarea>` elements.
 
@@ -24,7 +24,7 @@ var getSelection = require('seleccion').get;
 
 # `seleccion.set(range)`
 
-Provides a convenient cross-browser method to set the text selection into `range`.
+Provides a convenient cross-browser method to set the text selection using a `range` `TextRange`.
 
 ```js
 var setSelection = require('seleccion').set;
@@ -41,4 +41,4 @@ setSelection({
 
 MIT
 
-[1]: https://msdn.microsoft.com/en-us/library/ms536401(v=vs.85).aspx
+[1]: https://github.com/bevacqua/sell
