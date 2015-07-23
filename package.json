@@ -1,6 +1,6 @@
 {
   "name": "seleccion",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A getSelection polyfill and a setSelection dreamweaver",
   "main": "src/seleccion.js",
   "repository": {
@@ -13,8 +13,7 @@
     "url": "https://github.com/bevacqua/seleccion/issues"
   },
   "homepage": "https://github.com/bevacqua/seleccion",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "browserify": "8.1.0",
     "jshint": "2.5.11",
