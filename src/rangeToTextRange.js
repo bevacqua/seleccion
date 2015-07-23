@@ -3,12 +3,12 @@
 var doc = global.document;
 var body = doc.body;
 
-function rangeToTextRange (range) {
-  if (range.collapsed) {
-    return createBoundaryTextRange({ node: range.startContainer, offset: range.startOffset }, true);
+function rangeToTextRange (p) {
+  if (p.collapsed) {
+    return createBoundaryTextRange({ node: p.startContainer, offset: p.startOffset }, true);
   }
-  var startRange = createBoundaryTextRange({ node: range.startContainer, offset: range.startOffset }, true);
-  var endRange = createBoundaryTextRange({ node: range.endContainer, offset: range.endOffset }, false);
+  var startRange = createBoundaryTextRange({ node: p.startContainer, offset: p.startOffset }, true);
+  var endRange = createBoundaryTextRange({ node: p.endContainer, offset: p.endOffset }, false);
   var textRange = body.createTextRange();
   textRange.setEndPoint('StartToStart', startRange);
   textRange.setEndPoint('EndToEnd', endRange);

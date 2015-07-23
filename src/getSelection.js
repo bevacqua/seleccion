@@ -2,7 +2,6 @@
 
 var getSelection;
 var doc = global.document;
-var rangeToTextRange = require('./rangeToTextRange');
 var getSelectionRaw = require('./getSelectionRaw');
 var getSelectionNullOp = require('./getSelectionNullOp');
 var getSelectionSynthetic = require('./getSelectionSynthetic');
@@ -15,5 +14,4 @@ if (isHost.method(global, 'getSelection')) {
   getSelection = getSelectionNullOp;
 }
 
-getSelection.rangeToTextRange = rangeToTextRange;
 module.exports = getSelection;

@@ -1,8 +1,8 @@
 {
   "name": "seleccion",
   "version": "1.0.0",
-  "description": "A getSelection polyfill",
-  "main": "src/getSelection.js",
+  "description": "A getSelection polyfill and a setSelection dreamweaver",
+  "main": "src/seleccion.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/bevacqua/seleccion.git"
