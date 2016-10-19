@@ -1,7 +1,7 @@
 'use strict';
 
 var doc = global.document;
-var body = doc.body;
+var body = doc && doc.body;
 
 function rangeToTextRange (p) {
   if (p.collapsed) {

@@ -2,7 +2,7 @@
 
 var rangeToTextRange = require('./rangeToTextRange');
 var doc = global.document;
-var body = doc.body;
+var body = doc && doc.body;
 var GetSelectionProto = GetSelection.prototype;
 
 function GetSelection (selection) {
